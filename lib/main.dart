@@ -8,6 +8,18 @@ class MyNotes extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return  MaterialApp(
+      debugShowCheckedModeBanner: false,
+      theme: ThemeData.dark(),
+      home: MyHomePage(),
+      
+    );
+  }
+}class MyHomePage extends StatelessWidget {
+  const MyHomePage({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return  Scaffold();
   }
 }
