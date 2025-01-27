@@ -14,6 +14,7 @@ class CustomTextfield extends StatelessWidget {
         if(value?.isEmpty ??true){
           return 'field is emty';
         }
+        return null;
       },
       cursorColor: kPrimaryColor,
       maxLines: maxLines,
