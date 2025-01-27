@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:my_notes/views/my_widgets/Custom_app_bar.dart';
+import 'package:my_notes/views/my_widgets/custom_app_bar.dart';
 import 'package:my_notes/views/my_widgets/custom_textfield.dart';
 
 class EditNoteViewBody extends StatelessWidget {
