@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/rendering.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:intl/intl.dart';
 import 'package:my_notes/models/note_model.dart';
@@ -34,7 +33,7 @@ class _AddNoteFormState extends State<AddNoteForm> {
           ),
           CustomTextfield(
             onSaved: (value) {
-              subtitle = value;
+              title = value;
             },
             hint: "title",
           ),
@@ -43,7 +42,7 @@ class _AddNoteFormState extends State<AddNoteForm> {
           ),
           CustomTextfield(
             onSaved: (value) {
-              title = value;
+              subtitle = value;
             },
             hint: "content",
             maxLines: 5,
